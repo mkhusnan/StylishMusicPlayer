@@ -5,10 +5,10 @@ apply plugin: 'android-apt'
 
 android {
     compileSdkVersion 24
-    buildToolsVersion '24.0.2'
+    buildToolsVersion '25.0.0'
 
     defaultConfig {
-        applicationId 'io.github.ryanhoo.music'
+        applicationId 'tk.bungkhus.music'
         minSdkVersion 16
         targetSdkVersion 22
         versionCode getVersionCode("$BUILD")
@@ -36,6 +36,7 @@ dependencies {
     apt 'com.jakewharton:butterknife-compiler:8.4.0'
 
     compile 'uk.co.chrisjenx:calligraphy:2.2.0'
+    compile 'com.github.garretyoder:Colorful:1.1'
 }
 
 def getVersionCode(build) {

@@ -5,12 +5,12 @@
     android:layout_height="match_parent"
     >
 
-    <TextView
+    <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
-        android:textSize="24sp"
-        android:textColor="?attr/colorAccent"
-        android:text="@string/mp.fragment.title.settings"
-        />
+        android:id="@+id/button"
+        android:text="choose color"
+        android:textColor="@color/mp.theme.dark_blue.colorPrimary"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
 </RelativeLayout>

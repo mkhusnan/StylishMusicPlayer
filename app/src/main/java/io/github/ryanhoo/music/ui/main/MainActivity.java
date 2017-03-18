@@ -5,6 +5,9 @@ import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatDelegate;
 import android.support.v7.widget.Toolbar;
 import android.widget.RadioButton;
+
+import org.polaric.colorful.Colorful;
+
 import butterknife.BindView;
 import butterknife.BindViews;
 import butterknife.ButterKnife;

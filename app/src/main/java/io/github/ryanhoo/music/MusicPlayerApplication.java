@@ -1,6 +1,9 @@
 package io.github.ryanhoo.music;
 
 import android.app.Application;
+
+import org.polaric.colorful.Colorful;
+
 import uk.co.chrisjenx.calligraphy.CalligraphyConfig;
 
 /**
@@ -27,6 +30,8 @@ public class MusicPlayerApplication extends Application {
                         .setFontAttrId(R.attr.fontPath)
                         .build()
         );
+        // Coloring app
+        Colorful.init(this);
 
     }
 
